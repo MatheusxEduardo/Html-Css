@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*
+Id em Html= # css
+class em Html= . css
+*/
+
+body{
+    background-color:#335c61;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:#89a05f;
+}
+h1#principal{
+    text-align: center;
+    color: aliceblue;
+}
+h2{
+    color: #aeb893;
+}
+.basico{
+    color: #89a05f;
+}
+.medio{
+    color: yellow;
+}
+.avançado{
+    color: red;
+}

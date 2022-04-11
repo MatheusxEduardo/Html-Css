@@ -1,0 +1,29 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+body{
+    background-image: linear-gradient(to right, #083c5c,#005C53);
+}
+main{
+    background-color: white;
+    border-radius: 10px;/*Arredonda bordas*/
+    box-shadow: 5px 5px 15px #042940;/*Sombra da caixa, valor de quanto vai pro lado pra baixo espalhar e transparencia */
+    width: 650px;/*Largura*/
+    padding: 10px;/*Centraliza*/
+    margin: auto;/*Margem automatica*/
+}
+h1{
+    color: #005C53;
+    text-align: center;
+
+}
+h2{
+    color: #9FC131;
+
+}
+
+p{
+    text-align: justify;
+}

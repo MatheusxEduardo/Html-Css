@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em Html5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir este site em varias Midias diferentes ou aumente e diminua o tamanho do seu navegador
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png"> <!-- media é o tamanho da imagem... srcset é o arquivo selecionado. type tipo de arquivo-->
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png " alt="Imagem flexível">
+    </picture>
+    <h1>Inserindo audios</h1>
+    <audio preload="metadata" autoplay controls>
+        <source src="Midia/intrumental.mp3.mp3" type="audio/mpeg" > 
+    </audio>
+
+</body>
+</html>
