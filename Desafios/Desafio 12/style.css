@@ -1,2 +1,37 @@
 @charset "UTF-8";
 
+body{
+    background-color: black;
+    background-image: url('imagens/background001.jpg');
+    background-position: center top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background: black;
+    background-size:auto;
+    margin: -10px;
+    font-size: 25px;
+}
+
+section#fb{
+    background-color: white;
+}
+
+section#fb{
+    
+    color: black;
+    font-size: 40px;
+    
+}
+
+section#ft{
+    background-color: rgba(0, 0, 0, 0.477);
+    color: white;
+    font-size: 40px;
+    width: 300px;
+}
