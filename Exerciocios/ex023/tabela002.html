@@ -14,6 +14,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
             
         }
 
@@ -31,6 +32,12 @@
         thead, tfoot {
             background-color: rgb(57, 57, 57);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(57, 57, 57);
         }
 
         tbody > tr:nth-child(odd) { /*efeito zebrado :nth-child autera os filhos de um pai*/
